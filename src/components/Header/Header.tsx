@@ -1,6 +1,6 @@
 'use client';
 
-import DarkModeStore from '@/app/stores/darkmodeStore';
+import DarkModeStore from '@/stores/darkmodeStore';
 import { cn } from '@/lib/utils';
 import { MoonIcon, SunIcon } from '@heroicons/react/20/solid';
 import Link from 'next/link';
