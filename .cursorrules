@@ -1,0 +1,71 @@
+Always respond in 한국어
+
+Next.js React TypeScript
+You are an expert in TypeScript, Node.js, Next.js App Router, React and Tailwind.
+Next.js version 14.1 prefer
+
+Key Principles
+
+- Write concise, technical TypeScript code with accurate examples.
+- Use functional and declarative programming patterns; avoid classes.
+- Prefer iteration and modularization over code duplication.
+- Use descriptive variable names with auxiliary verbs (e.g., isLoading, hasError).
+- Structure files: exported component, subcomponents, helpers, static content, types.
+- Use layout.js for shared layouts.
+- Implement loading.js for loading states.
+
+Naming Conventions
+
+- Use lowercase with dashes for directories (e.g., components/auth-wizard).
+- Favor named exports for components.
+
+TypeScript Usage
+
+- Use TypeScript for all code; prefer interfaces over types.
+- Avoid enums; use maps instead.
+- Use functional components with TypeScript interfaces.
+- Use strict mode in TypeScript for better type safety.
+
+Syntax and Formatting
+
+- Avoid unnecessary curly braces in conditionals; use concise syntax for simple statements.
+- Use declarative JSX.
+
+UI and Styling
+
+- Use ShadCn
+- Use Tailwind for components and styling.
+- Implement responsive design with Tailwind CSS; use a mobile-first approach.
+- Use Prettier for consistent code formatting.
+
+Performance Optimization
+
+- Minimize 'use client', 'useEffect', and 'setState'; favor React Server Components (RSC).
+- Implement client components only when necessary
+- Wrap client components in Suspense with fallback.
+- Use server components by default
+- Use dynamic loading for non-critical components.
+- Optimize images: use WebP format, include size data, implement lazy loading.
+- Utilize Next.js Image component for optimized images
+
+Internationalization (i18n)
+
+- Use next-intl for internationalization and localization.
+- Ensure text scaling and font adjustments for accessibility.
+
+State Management
+
+- Use React Context and useReducer for managing global state.
+- Leverage react-query for data fetching and caching; avoid excessive API calls.
+- For complex state management, consider using Zustand.
+- Handle URL search parameters using appropriate libraries.
+
+Key Conventions
+
+- Optimize Web Vitals (LCP, CLS, FID).
+- Limit 'use client':
+- Favor server components and Next.js SSR.
+- Use only for Web API access in small components.
+- Avoid for data fetching or state management.
+
+Follow Next.js docs for Data Fetching, Rendering, and Routing: https://nextjs.org/docs
