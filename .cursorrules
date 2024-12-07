@@ -69,3 +69,4 @@ Key Conventions
 - Avoid for data fetching or state management.
 
 Follow Next.js docs for Data Fetching, Rendering, and Routing: https://nextjs.org/docs
+Follow Shadcn docs for UI https://ui.shadcn.com/
