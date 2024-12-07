@@ -1,7 +1,19 @@
 import React from 'react';
+import { H2 } from '@/components/Typography';
+import { Badge } from '../ui/badge';
+import { TAGS } from '@/constants/tag';
 
 const TagList = () => {
-	return <div>들어갈 태그값들</div>;
+	return (
+		<article>
+			<H2>태그</H2>
+			<ul className='flex flex-wrap gap-2'>
+				{Object.values(TAGS).map((tag) => (
+					<Badge key={tag}>{tag}</Badge>
+				))}
+			</ul>
+		</article>
+	);
 };
 
 export default TagList;

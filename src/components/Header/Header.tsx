@@ -7,6 +7,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { HeaderStyle } from './style';
 import { H4 } from './typography';
+import Language from './Language';
 
 const navLists = [{ name: 'About', path: '/about' }];
 
@@ -58,6 +59,7 @@ const Header = () => {
 								</Link>
 							</li>
 						))}
+						<Language />
 						<li className='cursor-pointer rounded-md p-1 hover:bg-gray-100 dark:hover:bg-gray-800'>
 							{darkMode ? (
 								<SunIcon className='size-5' color='#fff' onClick={toggleDarkMode} aria-label='다크 모드 전환' />

@@ -1,9 +1,10 @@
 import React from 'react';
+import { H2 } from '@/components/Typography';
 
 const PopularList = () => {
 	return (
 		<article>
-			<h2>Popular</h2>
+			<H2>인기 포스트</H2>
 			<ul>
 				<li>Popular 1</li>
 				<li>Popular 2</li>

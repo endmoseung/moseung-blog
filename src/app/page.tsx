@@ -5,15 +5,17 @@ import Profile from '../components/Home/Profile';
 
 export default function Home() {
 	return (
-		<section className='flex flex-col'>
+		<section className='flex flex-col gap-12'>
 			<Profile />
-			<div className='flex flex-col'>
-				<PopularList />
-				<Posts />
-			</div>
-			<aside className='mobile:hidden'>
-				<TagList />
-			</aside>
+			<section className='flex gap-4'>
+				<div className='flex w-2/3 flex-col'>
+					<PopularList />
+					<Posts />
+				</div>
+				<aside className='w-1/3 mobile:hidden'>
+					<TagList />
+				</aside>
+			</section>
 		</section>
 	);
 }
